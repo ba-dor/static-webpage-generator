@@ -9,11 +9,11 @@ class TestHTMLNode(unittest.TestCase):
         print(node)
         print(node.props_to_html())
     def test_eq1(self):
-        node = HTMLNode("a","value","",{"i":"test"})
+        node = HTMLNode("b","boldvalue","",{"i":"tester"})
         print(node)
         print(node.props_to_html())
     def test_eq2(self):
-        node = HTMLNode("a","value","",{"i":"test"})
+        node = HTMLNode("p","this is dummy text","",{"href":"https://test.be"})
         print(node)
         print(node.props_to_html())
 
